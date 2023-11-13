@@ -1,6 +1,6 @@
-#Welcome to the art gallery!
+# Welcome to the art gallery!
 
-Modern Art lets you place images and videos around your factory.
+**Modern Art** lets you place images and videos around your factory.
 
 Inspired by [YourImage](https://mods.factorio.com/mod/YourImage), I have designed it to support videos and allow users to easily add their own content. Some examples are included with the mod.
 
@@ -10,7 +10,7 @@ Inspired by [YourImage](https://mods.factorio.com/mod/YourImage), I have designe
 
 
 
-#Adding content:
+# Adding content:
 
 First you must extract the mod in your [mods folder](https://wiki.factorio.com/Application_directory). This will override the .zip and let you change the content inside. In config.lua you can change what content is active in game. Images and videos should be placed in the graphics folder and need their own subfolders following the example formats.
 
@@ -51,12 +51,12 @@ There are a lot of settings you can change on each picture or video. Examples ar
 ```
 I recommend a full text editor like Notepad++ or Kate to help you get the formatting right.
 
-##Removing Content:
+## Removing Content:
 
 Simply remove the relevant lines from config.lua
 
 
-#Limitations:
+# Limitations:
 
 Images and videos are limited to 4096x4096 total pixels. I think you can change the aspect ratio but not the total amount.
 
@@ -66,10 +66,10 @@ Keeping audio synced with video seems impossible. The "persistent" option keeps 
 
 
 
-##![Github Repo](https://github.com/Griffin-III/ModernArt)
+## ![Github Repo](https://github.com/Griffin-III/ModernArt)
 
 
-#Q&A:
+# Q&A:
 **Help, my game won't load!**
 
 If you're getting an error, read it! Chances are you just forgot a comma or bracket. The syntax for audio files is definitely the hardest option to get right so be sure to carefully read the wiki.
