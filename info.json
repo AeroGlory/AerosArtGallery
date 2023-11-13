@@ -6,6 +6,6 @@
   "factorio_version": "1.1",
   "dependencies": ["base >= 1.1.0"],
   "description": "Place images and videos around your factory. Inspired by YourImage.",
-  "contact": "https://github.com/Warehousing/Warehousing",
-  "homepage": "https://mods.factorio.com/17295"
+  "contact": "https://github.com/Griffin-III/ModernArt",
+  "homepage": "https://mods.factorio.com/mod/ModernArt"
 }

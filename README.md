@@ -9,10 +9,9 @@ Inspired by [YourImage](https://mods.factorio.com/mod/YourImage), I have designe
 
 
 
-
 # Adding content:
 
-First you must extract the mod in your [mods folder](https://wiki.factorio.com/Application_directory). This will override the .zip and let you change the content inside. In config.lua you can change what content is active in game. Images and videos should be placed in the graphics folder and need their own subfolders following the example formats.
+First you must extract Modern Art in your [mods folder](https://wiki.factorio.com/Application_directory). This will override the zip and let you change the content inside. In config.lua you can change what content is active in game. Images and videos should be placed in the graphics folder and need their own subfolders following the example formats.
 
 If there are any updates you will need to extract the new version and merge the configs.
 
@@ -63,10 +62,6 @@ Images and videos are limited to 4096x4096 total pixels. I think you can change 
 255 frames in an animation. If anyone has ideas on how to bypass this I'm interested.
 
 Keeping audio synced with video seems impossible. The "persistent" option keeps it running even if you deconstruct the object and desyncs within a few loops. Making it the build sound works the first time but doesn't loop.
-
-
-
-## ![Github Repo](https://github.com/Griffin-III/ModernArt)
 
 
 # Q&A:
