@@ -1,6 +1,6 @@
 {
   "name": "ModernArt",
-  "version": "1.0.0",
+  "version": "{{VERSION}}",
   "title": "Modern Art",
   "author": "Griffin",
   "factorio_version": "1.1",
