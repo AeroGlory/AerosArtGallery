@@ -1,10 +1,20 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2023-11-15
+  Features:
+    - Images can now be placed on SE space platforms
+  Bugfixes:
+    - Fixed changelog formatting
+    - Updated info.json again
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 2023-11-13
 
-  Updated info.json
-
+  Bugfixes:
+    - Updated info.json
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2023-11-13
 
-  Initial release
+  Features:
+    - Initial release

@@ -83,6 +83,7 @@ for key,content in pairs(config.images) do
 ---   User optional variables
       icon = config.imagepath .. "icon.png",
       icon_size = 256,
+      se_allow_in_space = true
     }
 ---   User optional variables
   if content.scale ~= nil then
@@ -204,6 +205,7 @@ for key,content in pairs(config.animations) do
 ---   User optional variables
       icon = config.animpath .. "icon.png",
       icon_size = 256,
+      se_allow_in_space = true
     }
 ---   User optional variables
   if content.scale ~= nil then

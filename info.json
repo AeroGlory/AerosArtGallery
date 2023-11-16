@@ -5,7 +5,6 @@
   "author": "Griffin",
   "factorio_version": "1.1",
   "dependencies": ["base >= 1.1.0"],
-  "description": "Place images and videos around your factory. Inspired by YourImage.",
+  "description": "Place images and videos around your factory. Easily add your own content, customize thumbnails, change recipes, add sound effects! Comes with only the best memes by default.",
   "contact": "https://github.com/Griffin-III/ModernArt",
-  "homepage": "https://mods.factorio.com/mod/ModernArt"
 }
