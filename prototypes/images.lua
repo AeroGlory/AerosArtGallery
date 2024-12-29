@@ -39,7 +39,7 @@ for key,content in pairs(config.images) do
         size = content.size,
       },
 ---     User optional variables
-      render_layer = "remnants",
+      render_layer = "floor",
     }
   }
 
@@ -58,32 +58,37 @@ for key,content in pairs(config.images) do
   local recipe =
   {
     name = "ma-" .. content.name,
-    result = "ma-" .. content.name,
+    results = {{type = "item", name = "ma-" .. content.name, amount = 1}},
     type = "recipe",
 --- User optional variables
-    ingredients = {{"iron-plate", 1}, {"wood", 3}},
+    ingredients = {
+      {type = "item", name = "iron-plate", amount = 1},
+      {type = "item", name = "wood", amount = 3}
+    },
+    allow_quality = false
   }
   local entity =
     {
       energy_source = {type = "void", usage_priority = "secondary-input"},
       type = "beacon",
       energy_usage = "1W",
+      module_slots = 0,
       supply_area_distance = 0,
       distribution_effectivity = 0,
       max_health = 100,
       module_specification = {},
       flags = {"placeable-neutral", "player-creation", "not-on-map"},
-      minable = {mining_time = 0.15, result = "ma-" .. content.name},
+      minable = {mining_time = 0.15, results = {{type = "item", name = "ma-" .. content.name, amount = 1}}},
       collision_box = {{-0, -0}, {0, 0}},
       selection_box = {{-2, -2}, {2, 2}},
-      collision_mask = {"layer-14", "colliding-with-tiles-only"},
+      collision_mask = {layers = {floor = true}, colliding_with_tiles_only = true},
       name = "ma-" .. content.name,
       localised_name = content.localised_name,
       graphics_set = {animation_list = imgcontent},
+      se_allow_in_space = true,
 ---   User optional variables
       icon = config.imagepath .. "icon.png",
       icon_size = 256,
-      se_allow_in_space = true
     }
 ---   User optional variables
   if content.scale ~= nil then
@@ -151,7 +156,7 @@ for key,content in pairs(config.animations) do
         stripes = {},
       },
 ---   User optional variables
-      render_layer = "remnants",
+      render_layer = "floor",
     }
   }
   --- Create stripes for every animation file in the folder
@@ -180,33 +185,46 @@ for key,content in pairs(config.animations) do
   local recipe =
   {
     name = "ma-" .. content.name,
-    result = "ma-" .. content.name,
+    results = {{type = "item", name = "ma-" .. content.name, amount = 1}},
     type = "recipe",
 --- User optional variables
-    ingredients = {{"iron-plate", 2}, {"iron-gear-wheel", 2}, {"electronic-circuit", 1}},
+    ingredients = {
+      {type = "item", name = "iron-plate", amount = 2},
+      {type = "item", name = "iron-gear-wheel", amount = 2},
+      {type = "item", name = "electronic-circuit", amount = 1}
+    },
+    allow_quality = false
   }
   local entity =
     {
       energy_source = {type = "void", usage_priority = "secondary-input"},
       type = "beacon",
       energy_usage = "1W",
+      module_slots = 0,
       supply_area_distance = 0,
       distribution_effectivity = 0,
       max_health = 100,
       module_specification = {},
       flags = {"placeable-neutral", "player-creation", "not-on-map"},
-      minable = {mining_time = 0.15, result = "ma-" .. content.name},
+      minable = {mining_time = 0.15, results = {{type = "item", name = "ma-" .. content.name, amount = 1}}},
       collision_box = {{-0, -0}, {0, 0}},
       selection_box = {{-2, -2}, {2, 2}},
-      collision_mask = {"layer-14", "colliding-with-tiles-only"},
+      collision_mask = {layers = {floor = true}, colliding_with_tiles_only = true},
       name = "ma-" .. content.name,
       localised_name = content.localised_name,
       graphics_set = {animation_list = animcontent},
+      se_allow_in_space = true,
 ---   User optional variables
       icon = config.animpath .. "icon.png",
       icon_size = 256,
-      se_allow_in_space = true
     }
+--     local quality =
+--     {
+--       type = "quality"
+--       name =
+--       color
+--       level
+--     }
 ---   User optional variables
   if content.scale ~= nil then
     entity["graphics_set"]["animation_list"][1]["animation"]["scale"]=content.scale
