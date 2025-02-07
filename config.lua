@@ -29,6 +29,13 @@ return {
 			vehicle_impact_sound = {},
 		},	--]=====]
 		{
+			localised_name = "Lil Guy",
+			name = "lilguy",
+			size = {1000, 1000},
+			scale = 0.4,
+			localised_description = "I don't know what the fuck this thing is but it's actually kinda cute...",
+		},
+		{
 			localised_name = "Nuclear Birb",
 			name = "birb",
 			size = {1000, 1000},
