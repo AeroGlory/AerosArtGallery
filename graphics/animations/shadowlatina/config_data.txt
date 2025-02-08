@@ -1,0 +1,6 @@
+Size = 512, 291
+Framerate = 33.33
+Frame Count = 169
+Files = 2
+Width in Frames = 8
+Height in Frames = 14
