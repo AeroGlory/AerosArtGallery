@@ -1,10 +1,10 @@
 {
-  "name": "ModernArt",
+  "name": "ModernArtAero",
   "version": "{{VERSION}}",
-  "title": "Modern Art",
-  "author": "Griffin",
+  "title": "Aero's Art Gallery",
+  "author": "AeroGlory",
   "factorio_version": "2.0",
   "dependencies": ["base >= 2.0.0"],
-  "description": "Place images and videos around your factory. Easily add your own content, customize thumbnails, change recipes, add sound effects! Comes with only the best memes by default.",
-  "contact": "https://github.com/Griffin-III/ModernArt"
+  "description": "My custom version of the Modern Art mod with a bunch of funny images and such.",
+  "contact": "https://github.com/AeroGlory/AerosArtGallery"
 }
