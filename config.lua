@@ -31,9 +31,37 @@ return {
 		{
 			localised_name = "Lil Guy",
 			name = "lilguy",
-			size = {1000, 1000},
+			size = {1080, 1080},
 			scale = 0.4,
 			localised_description = "I don't know what the fuck this thing is but it's actually kinda cute...",
+		},
+		{
+			localised_name = "Ethan Stare",
+			name = "effstare",
+			size = {463, 340},
+			scale = 1,
+			d_description = "He sees your soul.",
+		},
+		{
+			localised_name = "Adam Pog",
+			name = "adamshock",
+			size = {750, 1334},
+			scale = 1,
+			d_description = "Scott Will Eventually Take A Look At The First Mega Man Game Wozniak Neill pog.",
+		},
+		{
+			localised_name = "Grey Alvin",
+			name = "greyalvin",
+			size = {1576, 2100},
+			scale = 1,
+			d_description = "There is an imposter among us...",
+		},
+		{
+			localised_name = "Absoulte Cinema",
+			name = "greyalvin",
+			size = {637, 893},
+			scale = 1,
+			d_description = "Factorio movie when?",
 		},
 		{
 			localised_name = "Biter's Wish",
@@ -111,6 +139,18 @@ return {
 			repair_sound = {},
 			vehicle_impact_sound = {},
 		},	--]=====]
+		{
+			localised_name = "Shadow love Latinas.",
+			name = "shadowlatina",
+			size = {512, 291},
+			framerate = 33.33,
+			frame_count = 169,
+			files = 2,
+			width_in_frames = 8,
+			height_in_frames = 14,
+			scale = 1,
+			localised_description = "Shadow is so real for that.",
+		},
 		{
 			localised_name = "Ricardo",
 			name = "ricardo",
