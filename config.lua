@@ -58,7 +58,7 @@ return {
 		},
 		{
 			localised_name = "Absoulte Cinema",
-			name = "greyalvin",
+			name = "cinema",
 			size = {637, 893},
 			scale = 1,
 			d_description = "Factorio movie when?",
