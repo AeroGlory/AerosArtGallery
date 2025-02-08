@@ -36,18 +36,6 @@ return {
 			localised_description = "I don't know what the fuck this thing is but it's actually kinda cute...",
 		},
 		{
-			localised_name = "Nuclear Birb",
-			name = "birb",
-			size = {1000, 1000},
-			scale = 0.4,
-			localised_description = "The geiger counter says yes but I'd better do a taste test to be sure.",
-			icon = "birb/birb_icon.png",
-			ingredients = {
-				{type = "item", name = "steel-plate", amount = 2},
-				{type = "item", name = "uranium-ore", amount = 1},
-			}
-		},
-		{
 			localised_name = "Biter's Wish",
 			name = "biterwish",
 			size = {1043, 1280},
@@ -64,20 +52,6 @@ return {
 			localised_description = "Holy hell!",
 			icon = "bricc/bricc_icon.png",
 			--ingredients = {{"stone-brick", 1}, {"wood", 3}},
-		},
-		{
-			localised_name = "Indeed",
-			name = "indeed",
-			size = {1069, 1600},
-			scale = 0.25,
-			localised_description = "Biters vs Replicators, who wins?",
-			icon = "indeed/indeed_icon.png",
-		},
-		{
-			localised_name = "100% Jeb",
-			name = "jeb",
-			size = {667, 372},
-			scale = 0.8,
 		},
 		{
 			localised_name = "Whoosh!",
@@ -98,14 +72,6 @@ return {
 			icon_size = 150,
 		},
 		{
-			localised_name = "You must choose a mater-",
-			name = "stainless",
-			size = {1245, 880},
-			scale = 0.4,
-			localised_description = "Composites are overrated.",
-			--ingredients = {{"steel-plate", 1}},
-		},
-		{
 			localised_name = "Take It",
 			name = "takethis",
 			size = {951, 1000},
@@ -113,14 +79,6 @@ return {
 			localised_description = "It will give you strength. IF you can withstand the power surge.",
 			icon = "takethis/takethis_icon.png",
 			--ingredients = {{"raw-fish", 1}},
-		},
-		{
-			localised_name = "Tomlin Smile",
-			name = "tomlin",
-			size = {835, 525},
-			scale = 0.5,
-			icon = "tomlin/tomlin_icon.png",
-			--ingredients = {{"steel-plate", 1}, {"light-armor", 1}},
 		},
 	},
 	animations = {
