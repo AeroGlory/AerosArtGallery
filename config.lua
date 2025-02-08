@@ -1,5 +1,5 @@
-local imagepath = "__ModernArt__/graphics/images/"
-local animpath = "__ModernArt__/graphics/animations/"
+local imagepath = "__AerosArtGallery__/graphics/images/"
+local animpath = "__AerosArtGallery__/graphics/animations/"
 
 return {
 	imagepath = imagepath,
